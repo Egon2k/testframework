@@ -1,0 +1,4 @@
+TESTFRAMEWORK_FILE;
+MESSAGE;This is a not a test.
+WAIT;2
+MESSAGE;Oh sorry, yes it is :D
