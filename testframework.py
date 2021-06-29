@@ -1,6 +1,13 @@
 #!/usr/bin/python
 import PySimpleGUI as sg
 
+class logger:
+    def get_time(self):
+        return 'time'
+    
+    def get_date(self):
+        return 'date'
+
 def open_file():
     file = sg.popup_get_file('Open testframework file',
                              history = True,
